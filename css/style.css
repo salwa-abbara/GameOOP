@@ -35,8 +35,15 @@ nav {
     transform: scale(1.05);
     filter: grayscale(0);
 }
-
-
+.badge-color {
+    background-color: #32383e;
+}
+/* /////////////////details////////////////////// */
+.details-game {
+    background-color: #272729be;
+    backdrop-filter: blur(4px);
+    min-height: 100vh;
+}
 
 /* ///////////////////////loader//////////////// */
 .loading {

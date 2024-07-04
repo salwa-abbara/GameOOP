@@ -16,19 +16,19 @@ export class Ui{
      
                  <figcaption>
      
-                    <div class="hstack justify-content-between">
+                    <div class="hstack justify-content-between text-white">
                        <h3 class="h6 small">${games[i].title}</h3>
                        <span class="badge text-bg-primary p-2">Free</span>
                     </div>
      
-                    <p class="card-text small text-center opacity-50">
+                    <p class="card-text small text-center text-white opacity-50">
                        ${games[i].short_description.split(" ", 8)}
                     </p>
      
                  </figcaption>
               </div>
      
-              <footer class="card-footer small hstack justify-content-between">
+              <footer class="card-footer small hstack text-white justify-content-between">
      
                  <span class="badge badge-color">${games[i].genre}</span>
                  <span class="badge badge-color">${games[i].platform}</span>
